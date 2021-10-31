@@ -1,3 +1,5 @@
-hacc/Temp/UnityLockfile
 *.log
 *.cache
+hacc/Logs/*
+hacc/Temp/*
+hacc/Library/Artifacts/*

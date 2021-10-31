@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class BattleManager : MonoBehaviour
 {
 
-    private GameObject player = GameObject.Find("Player");
-    private GameObject enemy = GameObject.Find("Enemy");
+    private GameObject player;
+    private GameObject enemy;
 
     public void SetDamage(string caster, int target, int damage)
     {
